@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Front End</title>
+</head>
+<body>
+    <div class="video-player">
+        <video src="video/049e43d49cf09401a3eea8f245d04fee40895265-360p.mp4" poster="images/image.png" class="video"></video>
+        <div class="player-btn">
+            <div class="video-progress">
+                <div class="video-progress-film"></div>
+            </div>
+            <button class="play-btn" title="play">&#9658;</button>
+            <input type="range" class="volume" min="0" max="1" step=".05" value="1">
+            <div class="time-video">
+                <span class="current">0:00</span> / <span class="duration">0:00</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
